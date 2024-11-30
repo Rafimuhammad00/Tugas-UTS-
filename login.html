@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Lapangan</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pemesanan Lapangan</h1>
+        <form action="proses_pemesanan.php" method="post">
+            <ul>
+                <li>
+                    <input type="text" class="username" name="username" placeholder="Nama Pengguna" required>
+                </li>
+                <li>
+                    <input type="password" class="password" name="password" placeholder="Kata Sandi" required>
+                </li>
+                <li>
+                    <input type="text" name="lapangan" placeholder="Lapangan yang Dipesan" required>
+                </li>
+                <li>
+                    <input type="date" name="tanggal" required>
+                </li>
+                <li>
+                    <input type="time" name="waktu" required>
+                </li>
+                <li>
+                    <button type="submit" class="submit">Pesan Sekarang</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
